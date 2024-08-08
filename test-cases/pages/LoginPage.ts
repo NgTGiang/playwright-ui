@@ -1,6 +1,6 @@
-import { Page } from '@playwright/test';
+import { Page } from "@playwright/test";
 
-export class HomePage{
+export class LoginPage{
   private readonly page: Page;
 
   constructor(page: Page) {
